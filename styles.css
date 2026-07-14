@@ -1,0 +1,51 @@
+/* Save both html and css files to see changes on live server. */
+
+/* Type selector */
+
+body {
+    
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.02em;
+    color: rgb(255, 255, 255);
+
+}
+
+/* Type selector */
+
+a {
+
+    color: rgb(76, 115, 223);
+
+}
+
+/* Pseudo-class selector */
+
+section#main-games a:hover {
+
+    font-size: 1.3em;
+
+}
+
+/* Class selector */
+
+.header {
+    
+    color: rgb(86, 202, 154);
+
+}
+
+/* Child/relational selector */
+
+section#other-games>p {
+    
+    color: rgb(201, 159, 22);
+
+}
+
+/* Combo Selector */
+
+h1, h2 {
+
+    text-decoration:dotted underline;
+}
