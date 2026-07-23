@@ -1,0 +1,28 @@
+body {
+
+    background-color: rgb(0, 0, 0);
+    background-image: url(/images/bg.jpg);
+    background-size: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.02em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.b1 {
+
+    text-align: left;
+    margin: 10px;
+    width: 620px;
+    float: left;
+}
+
+
+.b2 {
+
+    margin: 10px;
+    width: 600px;
+    float: right
+    
+}

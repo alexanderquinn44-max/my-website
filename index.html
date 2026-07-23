@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dolly is a cat who is a little fat. She likes treats and games.">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
     <title>Dolly's Domain</title> <!--Should add JJK favicon -->
 </head>
 
@@ -15,15 +15,15 @@
 
     <main> <!--Main content of the page-->
 
-        <section> <!--Using sections to group things together-->
+        <section id="intro"> <!--Using sections to group things together-->
 
             <h1 class="header">Dolly, the Destroyer of Worlds</h1>
 
-             <img src="images/dolly.jpg" alt="Picture of Dolly the Destroyer" width="200" height="200">
+            <img src="images/dolly.jpg" alt="Picture of Dolly the Destroyer" width="200" height="200">
 
         </section>
 
-        <section id="main-games">
+        <section id="main-games" class="box"> 
 
             <!-- <img src="images/dolly.jpg" alt="Picture of Dolly the Destroyer" width="200" height="200"> -->
 
@@ -37,7 +37,7 @@
 
         </section>
 
-        <section>
+        <section class="box">
 
             <h2 class="header">Dolly's Thoughts:</h2>
 
@@ -47,20 +47,27 @@
 
         </section>
 
-        <section id="other-games">
+        <section class="box" id="other-games">
 
             <h2 class="header">Dolly's Other Games:</h2>
             <p> The Lord of the Rings Online </p>
             <p> Clair Obscur: Expedition 33 </p>
-            
+
         </section>
+
+        <section class="box" id="game-characters">
+
+            <h2><a href="html/page2.html">Click here to see Dolly's Characters!</a></h2>
+
+        </section>
+
 
 
 
     </main>
 
     <footer> <!--Footer of the page-->
-        <h5>&copy; 2026 Alex D.</h5>
+        <h5>&copy; CIS155 Summer 2026 Alex D.</h5>
     </footer>
 
 </body>
